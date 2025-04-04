@@ -14,9 +14,11 @@ Este é um sistema simples e eficiente de gerenciamento de funcionários, desenv
 
 ## Como usar
 
+```
 - git clone https://github.com/seu-usuario/sistema-funcionarios.git
 - cd sistema-funcionarios
 - Execute o arquivo index.js em um ambiente Node.js ou navegador (via console).
+```
 
 ## 📌 Exemplo de Uso
 
