@@ -181,22 +181,7 @@ const controleFuncionario = () => {
   }
 }
 
-const exeControleFuncionario = controleFuncionario();
+const sistema = controleFuncionario();
 
-exeControleFuncionario.adicionarFuncionario("Teste JS", "Diretor", 10000);
 
-exeControleFuncionario.modificarVendasFuncionario(1, 50, true);
-exeControleFuncionario.modificarVendasFuncionario(2, 100, true);
-exeControleFuncionario.modificarVendasFuncionario(3, 500, true);
-
-exeControleFuncionario.removerFuncionario(3);
-exeControleFuncionario.removerFuncionario(2);
-
-exeControleFuncionario.adicionarFuncionario("Testte JS V2", "Gerente", 5000);
-exeControleFuncionario.verificarPossibilidadeAumentoSalario();
-
-exeControleFuncionario.gerarRelatorio();
-exeControleFuncionario.relatorioEmpresa();
-exeControleFuncionario.exibirFuncionarios();
-
-exeControleFuncionario.pesquisarFuncionario(1);
+//Recomendo você ler o README.md antes de iniciar.
